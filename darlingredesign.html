@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+
+		<!-- CSS Files -->
+		<link rel="stylesheet" href="https://use.typekit.net/tiv0jeg.css">
+		<link rel="stylesheet" href="css/darlingredesign.css" />
+
+		<!-- All Javascript/jQuery Files -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/parallax.js"></script>
+		<script type="text/javascript" src="js/darlingredesign.js"></script>
+
+	
+		<title>Darling</title>
+	
+	</head>
+
+	<body>
+
+		<a class="food menu" href="food.html">food</a>
+
+		<div class="title">
+			<img id="title1" src="images/title1.png"/>
+			<img id="title2" src="images/title2.png"/>
+			<img id="title3" src="images/title3.png"/>
+		</div>
+		<div class="hometitle">
+			<img id="hometitle" src="images/titlepurple.png"/>
+		</div>
+		<div class="menu">
+			<p id="culture"> culture </p>
+			<p id="career"> career </p>
+			<p id="style"> style </p>
+			<p id="creativity"> creativity </p>
+			<p id="travel"> travel </p>
+			<p id="relationships"> relationships </p>
+			<p id="beauty"> beauty </p>
+		</div>
+
+		<div class="container">
+
+			<div class="ruins" id="stage1">
+				<div class="unit" data-depth="4">
+					<img id="duoone" src="images/duo1.jpg"/>
+					<p class="article ruinsarticle"> All Senses Engaged: <br> Where to Go in Morocco </p>
+					<img class="iconone" src="images/icon1.png"/>
+					
+				</div>
+			</div> <!-- end of ruins -->
+
+			<div class="oranges" id="stage2">
+				<div class="unit2" data-depth="5">
+					<img id="duotwo" src="images/duo2.jpg"/>
+					<p class="orangesarticle article"> If There’s One Person to Go to the <br> Farmer’s Market With, It’s Gaby Dalkin </p>
+					<img id="icontwo" src="images/icon2.png"/>
+				</div>
+			</div> <!-- end of oranges -->
+
+			<div class="cupcake" id="stage3">
+				<div class="unit3" data-depth="6">
+					<img id="duothree" src="images/duo3.jpg"/>
+					<p class="article cupcakearticle"> Tuesday Quotable: We Need the Mess Sometimes </p>
+					<img id="iconthree" src="images/icon3.png"/>
+				</div>
+			</div> <!-- end of cupcake -->
+			<div class="girl" id="stage4">
+				<div class="unit4" data-depth="7">
+					<img id="duofour" src="images/duo4.jpg"/>
+					<p class="girlarticle article"> Living With Less Starts in the Mind </p>
+					<img id="iconfour" src="images/icon4.png"/>
+				</div>
+			</div> <!-- end of girl -->
+			<div class="bath" id="stage5">
+				<div class="unit5" data-depth="8">
+					<img id="duofive" src="images/duo5.jpg"/>
+					<p class="batharticle article"> Submerged and Soothed: How to Create an At-Home Bath Ritual </p>
+					<img id="iconfive" src="images/icon5.png"/>
+				</div>
+			</div> <!-- end of bath -->
+			<div class="women" id="stage6">
+				<div class="unit6" data-depth="9">
+					<img id="duosix" src="images/duo6.jpg"/>
+					<p class="womenarticle article"> Tuesday Quotable: What Means the Most in Friendship </p>
+					<img id="iconsix" src="images/icon6.png"/>
+				</div>
+			</div> <!-- end of women -->
+			<div class="bridge" id="stage7">
+				<div class="unit7" data-depth="10">
+					<img id="duoseven" src="images/duo7.jpg"/>
+					<p class="bridgearticle article"> How to See the City That Never <br> Sleeps Through Fresh Eyes </p>
+					<img id="iconseven" src="images/icon7.png"/>
+				</div>
+			</div> <!-- end of bridge -->
+			<div class="tea" id="stage8">
+				<div class="unit8" data-depth="11">
+					<a href="article.html"> <img id="duoeight" src="images/duo8.jpg"/></a>
+					<p class="teaarticle article"> The Best Botanicals to Add to Your Tea </p>
+					<img id="iconeight" src="images/icon8.png"/>
+				</div>
+			</div> <!-- end of bridge -->
+		</div>  <!-- end of container -->
+		
+
+	</body>
+
+	<script>
+		var scene1 = $('#stage1').get(0);
+		var parallaxInstance=new Parallax(scene1, {
+				relativeInput: true,
+				pointerEvents: true,
+				hoverOnly: false,
+
+				invertX: true,
+				invertY: true,
+				frictionX: 0.1,
+				frictionY: 0.1,
+				originX: 0.5,
+				originY: 0.5,
+				limitX: false,
+				limitY: false,
+				scalarX: 10,
+				scalarY: 10
+
+		});
+
+		var scene2 = $('#stage2').get(0);
+		var parallaxInstance=new Parallax(scene2, {
+				relativeInput: true,
+				pointerEvents: true,
+				hoverOnly: false,
+
+				invertX: true,
+				invertY: true,
+				frictionX: 0.1,
+				frictionY: 0.1,
+				originX: 0.5,
+				originY: 0.5,
+				limitX: false,
+				limitY: false,
+				scalarX: 10,
+				scalarY: 10
+
+		});
+
+		var scene3 = $('#stage3').get(0);
+		var parallaxInstance=new Parallax(scene3, {
+				relativeInput: true,
+				pointerEvents: true,
+				hoverOnly: false,
+
+				invertX: true,
+				invertY: true,
+				frictionX: 0.1,
+				frictionY: 0.1,
+				originX: 0.5,
+				originY: 0.5,
+				limitX: false,
+				limitY: false,
+				scalarX: 10,
+				scalarY: 10
+
+		});
+
+		var scene4 = $('#stage4').get(0);
+		var parallaxInstance=new Parallax(scene4, {
+				relativeInput: true,
+				pointerEvents: true,
+				hoverOnly: false,
+
+				invertX: true,
+				invertY: true,
+				frictionX: 0.1,
+				frictionY: 0.1,
+				originX: 0.5,
+				originY: 0.5,
+				limitX: false,
+				limitY: false,
+				scalarX: 10,
+				scalarY: 10
+
+		});
+
+		var scene5 = $('#stage5').get(0);
+		var parallaxInstance=new Parallax(scene5, {
+				relativeInput: true,
+				pointerEvents: true,
+				hoverOnly: false,
+
+				invertX: true,
+				invertY: true,
+				frictionX: 0.1,
+				frictionY: 0.1,
+				originX: 0.5,
+				originY: 0.5,
+				limitX: false,
+				limitY: false,
+				scalarX: 10,
+				scalarY: 10
+
+		});
+
+		var scene6 = $('#stage6').get(0);
+		var parallaxInstance=new Parallax(scene6, {
+				relativeInput: true,
+				pointerEvents: true,
+				hoverOnly: false,
+
+				invertX: true,
+				invertY: true,
+				frictionX: 0.1,
+				frictionY: 0.1,
+				originX: 0.5,
+				originY: 0.5,
+				limitX: false,
+				limitY: false,
+				scalarX: 10,
+				scalarY: 10
+
+		});
+
+		var scene7 = $('#stage7').get(0);
+		var parallaxInstance=new Parallax(scene7, {
+				relativeInput: true,
+				pointerEvents: true,
+				hoverOnly: false,
+
+				invertX: true,
+				invertY: true,
+				frictionX: 0.1,
+				frictionY: 0.1,
+				originX: 0.5,
+				originY: 0.5,
+				limitX: false,
+				limitY: false,
+				scalarX: 10,
+				scalarY: 10
+
+		});
+
+		var scene8 = $('#stage8').get(0);
+		var parallaxInstance=new Parallax(scene8, {
+				relativeInput: true,
+				pointerEvents: true,
+				hoverOnly: false,
+
+				invertX: true,
+				invertY: true,
+				frictionX: 0.1,
+				frictionY: 0.1,
+				originX: 0.5,
+				originY: 0.5,
+				limitX: false,
+				limitY: false,
+				scalarX: 10,
+				scalarY: 10
+
+		});
+
+
+	</script>
+
+</html>

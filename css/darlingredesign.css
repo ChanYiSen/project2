@@ -1,0 +1,419 @@
+/*embedded fonts*/
+
+@font-face {
+font-family: body;
+src:url(../fonts/chaparralproregular.otf); }
+
+html,body {
+	width: 100%;
+	height: 100%;	
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background: url(../images/background.png) center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+}
+
+/* every ID (card) has a #. Every (high school) class has a period (.) */
+
+.title {
+	width: 600px;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	margin-left:-300px;
+	display: none;
+}
+@keyframes title_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+#title1{
+	width: 600px;
+	position: absolute;
+	top: 300px;
+	animation: title_fade .5s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+@keyframes title2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+#title2{
+	width: 600px;
+	position: absolute;
+	top: 350px;
+	animation: title2_fade 1s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-delay: 1s;
+}
+@keyframes title3_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+#title3{
+	width: 600px;
+	position: absolute;
+	top: 400px;
+	animation: title3_fade .5s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-delay: .5s;
+}
+
+#hometitle{
+	width: 300px;
+	position: absolute;
+	left: 75%;
+	display: none;
+	z-index:8;
+}
+#ahometitle{
+	width:230px;
+	position:absolute;
+	top:25px;
+	left:1150px;
+}
+
+#culture{
+	position:absolute;
+	top:130px;
+	left: 1348px;
+	transform: rotate(90deg);
+	z-index:2;
+}
+#career{
+	position:absolute;
+	top:205px;
+	left: 1349px;
+	transform: rotate(90deg);
+	z-index:2;
+}
+#style{
+	position:absolute;
+	top:270px;
+	left: 1355px;
+	transform: rotate(90deg);
+	z-index:2;
+}
+#creativity{
+	position:absolute;
+	top:350px;
+	left: 1337px;
+	transform: rotate(90deg);
+	z-index:2;
+}
+.food{
+	position: absolute;
+	top:442px;
+	left: 1355px;
+	transform: rotate(90deg);
+	text-decoration:none;
+	font-family: "filson-soft";
+	color:#5765cc;
+	font-size:1em;
+	z-index:2;
+}
+#travel{
+	position:absolute;
+	top:495px;
+	left: 1350px;
+	transform: rotate(90deg);
+	z-index:2;
+}
+#relationships{
+	position:absolute;
+	top:590px;
+	left: 1323px;
+	transform: rotate(90deg);
+	z-index:2;
+}
+#beauty{
+	position:absolute;
+	top:687px;
+	left: 1345px;
+	transform: rotate(90deg);
+	z-index:2;
+}
+
+.menu{
+	color: #5765cc;
+	font-family: "filson-soft";
+	font-size: 1em;
+	display: none;
+}
+
+a:hover { 
+    color: #b0b8b7;
+    font-size: 1.5em;
+    left: 1200;
+}
+
+.foodarticles {
+	width: 1300px;
+	height: 600px;
+	position: absolute;
+	top: 120px;
+	overflow: scroll;
+}
+
+#articleone{
+	height:600px;
+	position:absolute;
+	top: 0px;
+	left:1896.55px;
+}
+#articletwo{
+	height:600px;
+	position:absolute;
+	top:0px;
+	left:1496.55px;
+}
+#articlethree{
+	height:600px;
+	position:absolute;
+	top: 0px;
+	left:1096.55px;
+}
+#articlefour{
+	height:600px;
+	position:absolute;
+	top:0px;
+	left: 496.55px;
+}
+#articlefive{
+	height:600px;
+	position:absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.container {
+	display: none;
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	top: 50%;
+	margin-top: -200px;
+}
+
+#duoone{
+	width:320px;
+	position:absolute;
+}
+.iconone{
+	width:200px;
+	position:absolute;
+	left: 250px;
+}
+.ruinsarticle{
+	position: absolute;
+	left: 0px;
+	top: 420px;
+	z-index: 7;
+}
+#duotwo{
+	width:320px;
+	position:absolute;
+}
+#icontwo{
+	width:230px;
+	position:absolute;
+	left: 210px;
+}
+.orangesarticle{
+	position: absolute;
+	left: 0px;
+	top: 425px;
+	z-index: 7;
+}
+#duothree{
+	width:320px;
+	position:absolute;
+}
+#iconthree{
+	width:250px;
+	position:absolute;
+	left: 200px;
+}
+.cupcakearticle{
+	position: absolute;
+	left: 0px;
+	top: 475px;
+	z-index: 7;
+}
+#duofour{
+	width:320px;
+	position:absolute;
+}
+#iconfour{
+	width:200px;
+	position:absolute;
+	left: 220px;
+}
+.girlarticle{
+	position: absolute;
+	left: 0px;
+	top: 465px;
+	z-index: 7;
+}
+#duofive{
+	width:320px;
+	position:absolute;
+}
+#iconfive{
+	width:210px;
+	position:absolute;
+	left: 200px;
+}
+.batharticle{
+	position: absolute;
+	left: 0px;
+	top: 405px;
+	z-index: 7;
+}
+#duosix{
+	width:320px;
+	position:absolute;
+}
+#iconsix{
+	width:210px;
+	position:absolute;
+	left: 200px;
+}
+.womenarticle{
+	position: absolute;
+	left: 0px;
+	top: 470px;
+	z-index: 7;
+}
+#duoseven{
+	width:320px;
+	position:absolute;
+}
+#iconseven{
+	width:200px;
+	position:absolute;
+	left: 215px;
+}
+.bridgearticle{
+	position: absolute;
+	left: 0px;
+	top: 475px;
+	z-index: 7;
+}
+#duoeight{
+	width:320px;
+	position:absolute;
+}
+#iconeight{
+	width:210px;
+	position:absolute;
+	left: 210px;
+}
+.teaarticle{
+	position: absolute;
+	left: 0px;
+	top: 475px;
+	z-index: 7;
+}
+.article{
+	font-family:body;
+	position:absolute;
+	color:#b0b8b7;
+	font-size: 1.25em;
+}
+
+#colorpic{
+	width:400px;
+	position:absolute;
+	z-index:2;
+	top:15%;
+	left:15%;
+}
+#duopic{
+	width:400px;
+	position:absolute;
+	top:10%;
+	left:10%;
+}
+.story{
+	width:450px;
+	height: 525px;
+	position:absolute;
+	top: 275px;
+	left:55%;
+	font-size:11pt;
+	font-family: body;
+	overflow: scroll;
+}
+#articletitle{
+	position:absolute;
+	left: 55%;
+	top: 100px;
+	font-size:2em;
+	font-family: "filson-soft";
+	text-decoration:underline;
+	color:#5765cc;
+}
+#dateauthor{
+	width:500px;
+	position:absolute;
+	top:210px;
+	left:53%;
+}
+
+#stage1 {
+	margin-left: -400px;
+	margin-top: -100px;
+}
+
+#stage2 {
+	margin-left: -100px;
+	margin-top: 400px;
+}
+
+#stage3 {
+	margin-left: 200px;
+	margin-top: 200px;
+}
+
+#stage4 {
+	margin-left: -500px;
+	margin-top: 100px;
+}
+
+#stage5 {
+	margin-left: 100px;
+	margin-top: -300px;
+}
+
+#stage6 {
+	margin-left: 200px;
+	margin-top: -540px;
+}
+
+#stage7 {
+	margin-left: -300px;
+	margin-top: 200px;
+}
+
+#stage8 {
+	margin-left: -50px;
+	margin-top: 200px;
+}
+
+
+
+
+
+
+
